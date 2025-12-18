@@ -1,0 +1,30 @@
+nik@debnote:~/supercomputer_computing_labs-main/mpi/build/bin$ mpirun -np 4 mpi/build/1
+Vector size: 100000
+Global Max value: 999
+Time taken: 0.000194788 seconds
+
+nik@debnote:~/supercomputer_computing_labs-main/mpi/build/bin$ mpirun -np 8 mpi/build/1
+Vector size: 100000
+Global Max value: 999
+Time taken: 0.000118971 seconds
+
+nik@debnote:~/supercomputer_computing_labs-main/mpi/build/bin$ mpirun -np 4 mpi/build/1
+Vector size: 1000000
+Global Max value: 999
+Time taken: 0.00188994 seconds
+
+nik@debnote:~/supercomputer_computing_labs-main/mpi/build/bin$ mpirun -np 8 mpi/build/1
+Vector size: 1000000
+Global Max value: 999
+Time taken: 0.000928879 seconds
+
+nik@debnote:~/supercomputer_computing_labs-main/mpi/build/bin$ mpirun -np 4 mpi/build/1
+Vector size: 10000000
+Global Max value: 999
+Time taken: 0.00665903 seconds
+
+nik@debnote:~/supercomputer_computing_labs-main/mpi/build/bin$ mpirun -np 8 mpi/build/1
+Vector size: 10000000
+Global Max value: 999
+Time taken: 0.00373888 seconds
+
